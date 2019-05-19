@@ -50,7 +50,8 @@ def kesha_maker (array)
   
   array.each do |element|
     binding.pry
-    new_array << (element.split("")[2] = "$").join
+    x = element.split("")
+    [2] = "$").join
     
     
     
