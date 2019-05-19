@@ -51,6 +51,7 @@ def kesha_maker (array)
   array.each do |element|
     x = element.split("")
     y = x.delete_at(2)
+    binding.pry
     z = y.insert(2, "$")
     new_array << z.join
     
