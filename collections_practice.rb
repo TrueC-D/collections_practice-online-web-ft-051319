@@ -49,9 +49,10 @@ def kesha_maker (array)
   new_array = []
   
   array.each do |element|
-    binding.pry
     x = element.split("")
-    [2] = "$").join
+    binding.pry
+    
+    #[2] = "$").join
     
     
     
