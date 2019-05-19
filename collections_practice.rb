@@ -45,8 +45,9 @@ def reverse_array (array)
 end
 
 def kesha_maker (array)
-  binding.pry
+  
   new_array = []
+  binding.pry
   array.each do |element|
     new_array << (element.split("")[2] = "$").join
     
