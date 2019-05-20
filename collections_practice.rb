@@ -54,13 +54,6 @@ def kesha_maker (array)
     x.insert(2, "$")
     
     new_array << x.join
-    binding.pry
-    
-    
-    #[2] = "$").join
-    
-    
-    
   end
     new_array
 end
