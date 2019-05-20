@@ -55,9 +55,9 @@ def kesha_maker (array)
     new_array
 end
 
-def find_a
-  array.each do |element|
-
+def find_a (element)
+  array.collect do |element|
+    element.start_with?("a")
 end
 
 def sum_array
