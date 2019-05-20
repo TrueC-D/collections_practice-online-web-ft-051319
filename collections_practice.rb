@@ -45,14 +45,11 @@ def reverse_array (array)
 end
 
 def kesha_maker (array)
-  
   new_array = []
-  
   array.each do |element|
     x = element.split("")
     x.delete_at(2)
     x.insert(2, "$")
-    
     new_array << x.join
   end
     new_array
