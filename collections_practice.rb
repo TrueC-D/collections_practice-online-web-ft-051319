@@ -64,9 +64,9 @@ end
 def sum_array (array)
   sum = nil
   array.each do |element|
-    binding.pry
     if sum == nil
       sum = element
+      binding.pry
     else
       sum = sum + element 
     end
