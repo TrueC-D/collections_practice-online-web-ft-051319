@@ -59,7 +59,7 @@ def find_a (array)
   array.collect do |element|
    element if element.start_with?("a")
     
-  end
+  end.compact
 end
 
 def sum_array
