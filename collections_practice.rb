@@ -57,7 +57,6 @@ end
 
 def find_a (array)
   array.collect do |element|
-    binding.pry
     element.start_with?("a")
   end
 end
