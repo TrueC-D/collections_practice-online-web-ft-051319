@@ -57,8 +57,8 @@ end
 
 def find_a (array)
   array.collect do |element|
-    element.start_with?("a")
-    element
+    x = element.start_with?("a")
+    x
   end
 end
 
