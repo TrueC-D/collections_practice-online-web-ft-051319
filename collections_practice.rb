@@ -52,6 +52,7 @@ def kesha_maker (array)
     x = element.split("")
     x.delete_at(2)
     x.insert(2, "$")
+    x.join
     binding.pry
     new_array << z.join
     
