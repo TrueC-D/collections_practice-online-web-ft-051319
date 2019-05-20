@@ -58,6 +58,7 @@ end
 def find_a (element)
   array.collect do |element|
     element.start_with?("a")
+  end
 end
 
 def sum_array
