@@ -55,7 +55,7 @@ def kesha_maker (array)
     new_array
 end
 
-def find_a (element)
+def find_a (array)
   binding.pry
   array.collect do |element|
     element.start_with?("a")
