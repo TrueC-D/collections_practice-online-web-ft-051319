@@ -66,10 +66,10 @@ def sum_array (array)
   array.each do |element|
     if sum == nil
       sum = element
-      binding.pry
     else
       sum = sum + element 
     end
+    sum
   end
 end
 
