@@ -62,8 +62,15 @@ def find_a (array)
 end
 
 def sum_array (array)
+  sum = nil
   binding.pry
-
+  array.each do |element|
+    if sum == nil
+      sum = element
+    else
+      sum = sum + element 
+    end
+  end
 end
 
 def add_s
