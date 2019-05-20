@@ -65,14 +65,15 @@ def sum_array (array)
   sum = nil
   count = 0
   while count< array.length 
-  count += 1
-  array.each do |element|
-    if sum == nil
-      sum = element
-    else
-      sum = sum + element 
+    count += 1
+    array.each do |element|
+      if sum == nil
+        sum = element
+      else
+        sum = sum + element 
+      end
+      sum
     end
-    sum
   end
 end
 
