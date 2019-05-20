@@ -72,7 +72,7 @@ def sum_array (array)
       else
         sum = sum + element 
       end
-      sum
+      
     end
   end
 end
