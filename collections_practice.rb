@@ -65,20 +65,7 @@ def sum_array (array)
   array.inject {|sum, n| sum + n}
 end
 
-def add_s
+def add_s(array)
+  binding.pry
   
 end
-
-#sum = nil
- # count = 0
-  #while count< array.length 
-   # count += 1
-    #array.each do |element|
-     # if sum == nil
-       # sum = element
-      #else
-     #   sum = sum + element 
-    #  end
-      
-   # end
-  #end
