@@ -63,6 +63,9 @@ end
 
 def sum_array (array)
   sum = nil
+  count = 0
+  while count< array.length 
+  count += 1
   array.each do |element|
     if sum == nil
       sum = element
